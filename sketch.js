@@ -4,8 +4,8 @@ let arra;
 let arrb;
 let count;
 function setup() {
-   createCanvas(480,480);
-   
+   let canvas = createCanvas(480,480);
+   canvas.parent("canvas-div");
    n = 3;
    m = 3;
    arra = new Array();
